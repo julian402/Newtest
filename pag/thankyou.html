@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Thank You</title>
+    </head>
+    <body>
+
+        <?php
+
+        $nombreCliente = "";
+        $nombreDepartamento = "";
+        $empleadoSeleccionado = "";
+        $id = ; 
+    
+        // Texto del correo electrónico
+        $email = "Estimado $nombreCliente,
+    
+        Su caso ha sido registrado con éxito. A continuación, se detallan los datos:
+        
+        - Número de caso: $id
+        - Departamento: $departamento
+        - Empleado asignado: $empleadoSeleccionado
+    
+        Gracias por ponerse en contacto con nosotros.
+    
+        Atentamente,
+        El equipo de soporte";
+    
+        echo nl2br($email); 
+        ?>
+
+    </body>
+</html>
